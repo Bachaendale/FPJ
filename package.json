@@ -1,0 +1,13 @@
+{
+  "name": "smart_sales",
+  "version": "1.0.0",
+  "description": "Smart Sales Full Stack Application",
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && python manage.py runserver",
+    "start": "npm run start:frontend"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}
